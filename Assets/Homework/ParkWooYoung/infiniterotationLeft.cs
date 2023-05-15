@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ro : MonoBehaviour
+public class infiniterotationLeft : MonoBehaviour
 {
     [SerializeField]
     private float turnSpeed;
 
     private void Rotate()
     {
-        transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.left, turnSpeed * Time.deltaTime);
     }
 
     void Update()

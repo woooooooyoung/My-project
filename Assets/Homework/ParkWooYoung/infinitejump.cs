@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class jump1 : MonoBehaviour
+public class infinitejump : MonoBehaviour
 {
     private Rigidbody rigidbody;
 

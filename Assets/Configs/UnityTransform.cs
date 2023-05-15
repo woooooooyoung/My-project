@@ -89,7 +89,7 @@ public class UnityTransform : MonoBehaviour
     // EulerAngle	: 3축을 기준으로 각도법으로 회전시키는 방법
     //				  직관적이지만 짐벌락 현상이 발생하여 회전이 겹치는 축이 생길 수 있음
     // 짐벌락		: 같은 방향으로 오브젝트의 두 회전 축이 겹치는 현상, 왜 그런지는 기하학을 배워야하기때문에 이해하려고 하지 말자
-    //                축이 겹쳐서
+    //                축이 겹쳐서 생기는 현상
 
     // Quarternion을 통해 회전각도를 계산하는 것은 직관적이지 않고 이해하기 어려움
     // 보통의 경우 쿼터니언 -> 오일러각도 -> 연산진행 -> 결과오일러각도 -> 결과쿼터니언 과 같이 연산의 결과 쿼터니언을 사용함
@@ -100,7 +100,7 @@ public class UnityTransform : MonoBehaviour
 
         // Euler각도를 Quaternion으로 변환
         transform.rotation = Quaternion.Euler(0, 90, 0);
-        transform.rotation.ToEulerAngles(); //
+        transform.rotation.ToEulerAngles(); 
     }
 
     // <트랜스폼 부모-자식 상태>
@@ -121,6 +121,7 @@ public class UnityTransform : MonoBehaviour
         // transform.localScale		: 부모트랜스폼이 있는 경우 부모를 기준으로 한 크기
 
         // 부모 해제
+        // 부모 트랜스폼이 없을시 월드가 부모가 됨
         transform.parent = null;
 
         // 월드를 기준으로한 트랜스폼
