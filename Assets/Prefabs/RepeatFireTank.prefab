@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 540017549078384464}
   - component: {fileID: 540017549081775874}
   - component: {fileID: 540017549080677826}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TankTracksLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 540017549078384466}
   - component: {fileID: 540017549081775884}
   - component: {fileID: 540017549080677836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TankTracksRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,8 +181,8 @@ GameObject:
   - component: {fileID: 540017549733637156}
   - component: {fileID: 540017549733637154}
   - component: {fileID: 540017549733637150}
-  m_Layer: 0
-  m_Name: Player2
+  m_Layer: 6
+  m_Name: RepeatFireTank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 540017549078384470}
   - component: {fileID: 540017549081775876}
   - component: {fileID: 540017549080677828}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TankChassis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +374,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540017549078384472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TankRenderers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 540017549081775878}
   - component: {fileID: 540017549080677830}
   - component: {fileID: 540017549081775877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0. TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -510,7 +510,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540017549155743834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1. Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 540017549264236528}
   - component: {fileID: 540017549264236530}
   - component: {fileID: 540017549264236531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 6. TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540017549265181380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1. Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -708,7 +708,7 @@ GameObject:
   - component: {fileID: 540017549293443371}
   - component: {fileID: 540017549293443373}
   - component: {fileID: 540017549293443374}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 4. TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +840,7 @@ GameObject:
   - component: {fileID: 540017549478324784}
   - component: {fileID: 540017549478324786}
   - component: {fileID: 540017549478324787}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 2. TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -968,7 +968,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540017549566989378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1. Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1003,7 +1003,7 @@ GameObject:
   - component: {fileID: 540017549646591161}
   - component: {fileID: 540017549646591163}
   - component: {fileID: 540017549646591164}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3. TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1131,7 +1131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540017550021195223}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1. Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1166,7 +1166,7 @@ GameObject:
   - component: {fileID: 540017550185217396}
   - component: {fileID: 540017550185217398}
   - component: {fileID: 540017550185217399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 5. TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1294,7 +1294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540017550291189674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1. Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1327,7 +1327,7 @@ GameObject:
   - component: {fileID: 540017550297575925}
   - component: {fileID: 540017550297575924}
   - component: {fileID: 540017550297575923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1394,7 +1394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540017550616328755}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1. Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1429,7 +1429,7 @@ GameObject:
   - component: {fileID: 540017550728660221}
   - component: {fileID: 540017550728660223}
   - component: {fileID: 540017550728660096}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 7. TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1561,7 +1561,7 @@ GameObject:
   - component: {fileID: 540017550826561387}
   - component: {fileID: 540017550826561385}
   - component: {fileID: 540017550826561384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1. TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1689,7 +1689,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540017550975389024}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1. Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1720,7 +1720,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540017550990254830}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1. Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}

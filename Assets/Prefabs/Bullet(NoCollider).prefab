@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 117290783710548309}
   - component: {fileID: 117290784137201038}
   - component: {fileID: 117290784137201039}
-  m_Layer: 0
-  m_Name: Bullet
+  m_Layer: 7
+  m_Name: Bullet(NoCollider)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -114,3 +114,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 10
+  explosionEffect: {fileID: 0}

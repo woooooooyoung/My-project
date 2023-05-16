@@ -1,5 +1,5 @@
 {
-    "name": "New Controls",
+    "name": "Player",
     "maps": [
         {
             "name": "Player",
@@ -138,7 +138,7 @@
                 {
                     "name": "",
                     "id": "a671d266-83da-451a-96ce-31a7979c6385",
-                    "path": "<Keyboard>/space",
+                    "path": "<Keyboard>/b",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

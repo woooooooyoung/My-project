@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8952886139536710852}
   - component: {fileID: 8952886139536710853}
   - component: {fileID: -1984284138818196115}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TurretBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 3
+  explosionEffect: {fileID: 0}
 --- !u!114 &-1984284138818196115
 MonoBehaviour:
   m_ObjectHideFlags: 0
