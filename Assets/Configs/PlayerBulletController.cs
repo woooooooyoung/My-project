@@ -10,6 +10,7 @@ public class PlayerBulletController : MonoBehaviour
 {
     private Rigidbody rigidbody;
     private Vector3 moveDir;
+    private Animator animator;
 
     [SerializeField] private float moveSpeed;
     // [SerializeField] private float jumpPower;
